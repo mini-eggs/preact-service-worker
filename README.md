@@ -9,5 +9,5 @@ $ git clone https://github.com/mini-eggs/preact-service-worker.git your-app
 $ cd your-app
 $ yarn 
 $ npm start for dev mode
-$ nom run build for prod
+$ npm run build for prod
 ```
