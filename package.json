@@ -1,0 +1,21 @@
+{
+  "name": "preact-service-worker",
+  "version": "0.1.0",
+  "private": false,
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "preact-scripts": "0.3.0-alpha",
+    "sw-precache": "^4.2.2"
+  },
+  "dependencies": {
+    "preact": "^5.6.0"
+  },
+  "scripts": {
+    "start": "preact-scripts start",
+    "build": "preact-scripts build && gulp move && sw-precache --config=sw-precache-config.js",
+    "eject": "preact-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/preact-scripts/config/eslint.js"
+  }
+}
